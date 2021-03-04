@@ -1,6 +1,7 @@
 # HalftoneGenerator
 A program for generating comicbook-style halftone (dot matrix) patterns  that you can use freely for digital art projects.
-Can create both radial, sprial and linear patterns. Written in JavaScript and P5js.
+Can create radial, sprial and linear patterns.
+Written in JavaScript and P5js.
 
 [To see the program in action just click here](https://liamroddy.github.io/HalftoneGenerator/)
 
