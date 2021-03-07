@@ -146,13 +146,13 @@ canvasHeight.oninput = function(suppress) {
 		setupPattern() // restart
 }
 
-backgroundColourPicker.oninput = function(suppress) {
+backgroundColourPicker.onchange = function(suppress) {
 	backgroundColour = this.value
 	if (allowRestart)
 		setupPattern() // restart
 }
 
-foregroundColourPicker.oninput = function(suppress) {
+foregroundColourPicker.onchange = function(suppress) {
 	foregroundColour = this.value
 	if (allowRestart)
 		setupPattern() // restart
